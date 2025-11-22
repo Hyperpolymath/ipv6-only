@@ -215,6 +215,20 @@ security-go:
     cd src/go && gosec ./... || true
 
 # ============================================================================
+# RSR COMPLIANCE
+# ============================================================================
+
+# Run RSR (Rhodium Standard Repository) compliance verification
+rsr-verify:
+    @echo "Running RSR compliance verification..."
+    python src/python/ipv6tools/rsr_verify.py
+
+# Run RSR verification with JSON output
+rsr-verify-json:
+    @echo "Running RSR compliance verification (JSON)..."
+    python src/python/ipv6tools/rsr_verify.py --json
+
+# ============================================================================
 # BENCHMARKING & PERFORMANCE
 # ============================================================================
 

@@ -1,0 +1,130 @@
+# The Humans Behind IPv6-Only Tools
+
+## Team
+
+### Development
+
+**Lead Developer:** Hyperpolymath
+- Location: Earth
+- Role: Architecture, Implementation, Documentation
+- Languages: Python, Go, ReScript, Deno/TypeScript, Shell, Ada, Nickel
+- Specialty: IPv6 networking, security, distributed systems
+
+**Contributors:** See CONTRIBUTORS.md (to be created as project grows)
+
+## Technology Stack
+
+### Languages
+- **Python 3.8+**: Core library, CLI tools, advanced features
+- **Go 1.20+**: High-performance network tools
+- **Deno/TypeScript**: Web server and API
+- **ReScript**: Web UI (future)
+- **Shell**: System integration scripts
+- **Nickel**: Configuration management
+- **AsciiDoc**: Documentation
+
+### Tools
+- **just**: Task automation (150+ recipes)
+- **Podman**: Containerization with Wolfi base
+- **pytest**: Python testing
+- **GitHub Actions**: CI/CD
+- **Nix**: Reproducible builds
+
+### Infrastructure
+- **GitHub**: Source control, issues, releases
+- **PyPI**: Python package distribution
+- **Container Registry**: Wolfi-based images
+- **Hurricane Electric**: IPv6 tunnel broker integration
+
+## Site
+
+**Repository:** https://github.com/Hyperpolymath/ipv6-only
+**Issues:** https://github.com/Hyperpolymath/ipv6-only/issues
+**Documentation:** https://github.com/Hyperpolymath/ipv6-only/tree/main/docs
+
+## Standards
+
+We follow:
+- **Rhodium Standard Repository (RSR)**: Repository best practices
+- **RFC 9116**: security.txt for vulnerability disclosure
+- **Semantic Versioning**: Version numbering
+- **Keep a Changelog**: Changelog format
+- **Contributor Covenant**: Code of conduct
+- **TPCF**: Tri-Perimeter Contribution Framework
+
+## Thanks
+
+### Inspiration
+- **Hurricane Electric**: Free IPv6 tunnels and certification
+- **IETF**: IPv6 RFCs and standards
+- **Chainguard**: Wolfi secure base images
+- **Nickel Lang**: Type-safe configuration
+- **Deno**: Modern JavaScript runtime
+- **Rust/Go/Python**: Language communities
+
+### Tools We Use
+- **casey/just**: Command runner
+- **pytest**: Testing framework
+- **Podman**: Container runtime
+- **AsciiDoctor**: Documentation
+- **GitHub**: Hosting and CI/CD
+
+## ASCII Art
+
+```
+ ___________   ______    __     _______
+|   _____   | |   _  \  |  |   |  _____|
+|  |     |  | |  |_)  | |  |   | |
+|  |     |  | |   ___/  |  |   | |____
+|  |_____|  | |  |      |  |   |  ____|
+|___________| |__|      |__|   |_|
+
+IPv6-Only Tools - Networking Liberation
+```
+
+## Fun Facts
+
+- **Lines of Code**: ~20,000+
+- **Justfile Recipes**: 150+
+- **Test Cases**: 100+
+- **Documentation Pages**: 15+
+- **Supported Tools**: 10+
+- **Languages Used**: 7+
+- **Coffee Consumed**: Immeasurable ☕
+
+## Contact
+
+- **General**: contact@ipv6-only.example.com
+- **Security**: security@ipv6-only.example.com
+- **Maintainers**: maintainers@ipv6-only.example.com
+- **AI Policy**: ai-policy@ipv6-only.example.com
+
+## License
+
+MIT + Palimpsest v0.8
+
+See licence.txt for full terms.
+
+## Last Updated
+
+2024-11-22
+
+---
+
+Made with ❤️ and IPv6 by humans who believe in:
+- Open source
+- Network freedom
+- Security by design
+- Offline-first
+- Documentation
+- Testing
+- Community
+- Ethical AI
+- Privacy
+- Accessibility
+
+"The best time to adopt IPv6 was 20 years ago. The second best time is now."
+
+---
+
+**This is a humans.txt file. Learn more at http://humanstxt.org**

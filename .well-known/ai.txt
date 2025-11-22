@@ -1,0 +1,196 @@
+# AI Training and Usage Policy
+
+## Overview
+
+This document describes the IPv6-Only Tools project's policies regarding
+AI/ML training, crawling, and automated access.
+
+## Training Data Policy
+
+### Allowed Uses
+
+✅ **Permitted:**
+- Reading this code to understand IPv6 concepts
+- Using as reference implementation for IPv6 tools
+- Learning IPv6 networking principles
+- Educational purposes with attribution
+- Research into IPv6 security and best practices
+
+### Restricted Uses
+
+⚠️ **Requires Attribution:**
+- Including code snippets in training datasets
+- Using documentation as training corpus
+- Incorporating algorithms into AI models
+- Using test cases for model validation
+
+Attribution requirement: Cite as:
+```
+IPv6-Only Tools Project
+https://github.com/Hyperpolymath/ipv6-only
+License: MIT + Palimpsest v0.8
+```
+
+❌ **Not Permitted:**
+- Commercial AI training without explicit permission
+- Training models to generate security exploits
+- Using for adversarial security testing without authorization
+- Circumventing rate limits or access controls
+
+## Crawling and Automation
+
+### Web Scraping
+
+This project's documentation and code are public, but:
+- Respect rate limits
+- Use appropriate User-Agent headers
+- Cache responses appropriately
+- Follow robots.txt directives
+
+### API Access
+
+If we provide APIs in the future:
+- Authentication required for automated access
+- Rate limits apply
+- Terms of service must be followed
+- No scraping disguised as legitimate use
+
+## Copyright and Licensing
+
+All code and documentation are under:
+- **MIT License** for permissive use
+- **Palimpsest v0.8** for additional protections
+
+See licence.txt for full terms.
+
+### Derivative Works
+
+If training AI on this codebase:
+1. Maintain attribution in generated code
+2. Respect original license terms
+3. Document AI involvement in derivative works
+4. Follow academic citation standards if publishing
+
+## Research and Academic Use
+
+### Encouraged:
+- Security research (responsible disclosure)
+- Performance analysis
+- IPv6 adoption studies
+- Network protocol research
+
+### Required:
+- Cite in publications
+- Share findings (where appropriate)
+- Report vulnerabilities privately
+- Acknowledge in derivative works
+
+## Large Language Models (LLMs)
+
+### For Model Developers:
+
+If including this project in training data:
+1. Include full license text (licence.txt)
+2. Maintain attribution metadata
+3. Flag security-sensitive code appropriately
+4. Respect ethical AI guidelines
+
+### For Model Users:
+
+If an LLM generated code based on this project:
+1. Verify the code (don't trust blindly)
+2. Check for security issues
+3. Understand what it does (especially networking code)
+4. Attribute if substantial portions used
+5. Test thoroughly before deployment
+
+## Security Considerations
+
+### Responsible AI:
+- Don't train models to generate exploits
+- Don't use AI to scan networks without authorization
+- Don't automate vulnerability discovery without disclosure
+- Don't use AI to circumvent security measures
+
+### IPv6-Specific:
+- Network scanning tools require authorization
+- Security features must not be weaponized
+- Tunneling configurations are site-specific
+- Don't auto-generate malicious IPv6 packets
+
+## Data Privacy
+
+This project does not collect user data, but if AI systems process:
+- Network configurations (may contain sensitive info)
+- Security scan results (private network data)
+- Tunnel credentials (must be protected)
+
+Ensure privacy-preserving practices.
+
+## Contact
+
+Questions about AI/ML use of this project:
+- Email: ai-policy@ipv6-only.example.com
+- GitHub Discussions: AI/ML Usage category
+
+## Commercial AI Companies
+
+If you are:
+- OpenAI, Anthropic, Google, Meta, Microsoft, etc.
+- Training foundation models
+- Building code generation systems
+
+Please contact us before including in training corpus:
+ai-policy@ipv6-only.example.com
+
+We're open to collaboration with proper attribution and ethical use.
+
+## Updates
+
+This policy may be updated. Check:
+https://github.com/Hyperpolymath/ipv6-only/blob/main/.well-known/ai.txt
+
+Last updated: 2024-11-22
+
+## Machine-Readable Format
+
+For automated tools:
+
+```yaml
+project: IPv6-Only Tools
+repository: https://github.com/Hyperpolymath/ipv6-only
+license: MIT AND Palimpsest-0.8
+attribution_required: true
+commercial_training: contact_required
+ethical_use: required
+security_sensitive: true
+contact: ai-policy@ipv6-only.example.com
+```
+
+## Robots.txt Equivalent
+
+If we were a website, our robots.txt would be:
+
+```
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: *
+Allow: /
+```
+
+We prefer opt-in for commercial AI training.
+
+---
+
+For the full human-readable license, see:
+https://github.com/Hyperpolymath/ipv6-only/blob/main/licence.txt

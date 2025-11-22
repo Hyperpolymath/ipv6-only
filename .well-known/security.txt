@@ -1,0 +1,91 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# Security Contact Information
+
+Contact: security@ipv6-only.example.com
+Contact: https://github.com/Hyperpolymath/ipv6-only/security/advisories/new
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://raw.githubusercontent.com/Hyperpolymath/ipv6-only/main/.well-known/security.txt
+Policy: https://github.com/Hyperpolymath/ipv6-only/blob/main/security.md
+Acknowledgments: https://github.com/Hyperpolymath/ipv6-only/blob/main/security.md#acknowledgments
+
+# Encryption
+
+Encryption: https://keys.openpgp.org/search?q=security@ipv6-only.example.com
+
+# Security Reporting
+
+Please report security vulnerabilities by emailing security@ipv6-only.example.com
+or using GitHub's private vulnerability reporting feature.
+
+Do NOT report security vulnerabilities through public GitHub issues.
+
+Include:
+- Type of vulnerability
+- Location in source code
+- Steps to reproduce
+- Proof of concept (if available)
+- Impact assessment
+
+# Response Timeline
+
+- Initial response: Within 48 hours
+- Status update: Within 7 days
+- Resolution target: Within 90 days (severity-dependent)
+
+# Disclosure Policy
+
+We follow coordinated disclosure:
+1. Issue reported privately
+2. Fix developed in private
+3. Security advisory drafted
+4. Fix released with advisory
+5. Public disclosure after fix available
+
+# Scope
+
+In scope:
+- All code in this repository
+- Dependencies we control
+- Build and deployment systems
+- Documentation affecting security
+
+Out of scope:
+- Social engineering
+- Physical attacks
+- Denial of service (unless leading to code execution)
+- Issues in third-party dependencies (report to maintainers)
+
+# Safe Harbor
+
+We support security research conducted in good faith:
+- Research on your own systems or with permission
+- Do not access data you don't own
+- Do not violate privacy or destroy data
+- Give us reasonable time to fix issues
+- Follow responsible disclosure
+
+Researchers acting in good faith will not face legal action.
+
+# Additional Information
+
+See our full security policy:
+https://github.com/Hyperpolymath/ipv6-only/blob/main/security.md
+
+Security updates:
+- CVE assignments requested for qualifying issues
+- Security advisories published on GitHub
+- Notifications via GitHub watch/security alerts
+
+# Hall of Fame
+
+We acknowledge security researchers who report valid vulnerabilities:
+(List maintained in security.md)
+
+-----BEGIN PGP SIGNATURE-----
+
+(Signature would go here - sign with GPG key)
+
+-----END PGP SIGNATURE-----
